@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+h1{
+  color: black;
+}
+
+.principal_container{
+  margin: 50px;
+}
+
+
+
+.cards-container{
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
