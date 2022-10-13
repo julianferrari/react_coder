@@ -1,0 +1,5 @@
+.sidebar_container{
+    background-color: red;
+    display: flex;
+    width: fit-content;
+}

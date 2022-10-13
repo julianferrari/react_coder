@@ -1,10 +1,12 @@
 import './App.css';
-import Button from 'react-bootstrap/Button';
+import SideBar from './components/SideBar/SideBar';
+import Container from './components/Container/Container';
 
 function App() {  
   return ( //devuelve un JSX //Tengo que poner { } para que me lo tome como JS.
     <div>      
-      <Button variant="primary">Primary</Button>{" "}
+      <SideBar/>
+      <Container/>
     </div>
   );
 }
